@@ -1,0 +1,15 @@
+meta {
+  name: All Users
+  type: http
+  seq: 4
+}
+
+get {
+  url: http://localhost:3000/users/all
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: REPLACE_WITH_YOUR_TOKEN
+}
